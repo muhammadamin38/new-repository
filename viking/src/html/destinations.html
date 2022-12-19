@@ -1,0 +1,73 @@
+@@include("partials/head.html")
+
+    <div class="grid-row">
+
+        @@include("partials/header.html")
+        
+        <!-- Hero image -->
+        <div class="hero-container full-width show-on-mobile pt1 pl2 pr2">
+            <div class="hero full-width full-height" style="background: rgba(0, 0, 0, 0) url('/img/2.jpg') no-repeat scroll center center / cover;"></div>
+        </div>
+        <div class="hide-on-mobile hero" style="background: rgba(0, 0, 0, 0) url('/img/2.jpg') no-repeat scroll center center / cover;"></div>
+
+        <!-- Body -->
+        <div class="body full-width pt1 pr2 pb2 pl2">
+            <!-- Navigation -->
+            <nav class="navigation border--bottom pt1">
+                <ul class="no-bullets list--inline pb1 bold">
+                    <li class="small mr2"><a class="link link--text" href="/">Who We Are</a></li>
+                    <li class="small mr2"><a class="link link--text current" href="/destinations.html">Destinations</a></li>
+                    <li class="small mr2"><a class="link link--text" href="/pricing.html">Pricing</a></li>
+                    <li class="small "><a class="link link--text" href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Page Content -->
+            <main class="content pt2 pb2">
+                <h2>Destinations</h2>
+                <div class="border--full rounded pt1 pb1 pr2 pl2 mb1">
+                    <div class="grid-row">
+                        <div class="grid-column span-half align--center-on-tiny">
+                            <p class="mb0 bold">Paris</p>
+                        </div>
+                        <div class="grid-column span-half align--right align--center-on-tiny">
+                            <p class="mb0">June 16 - 21</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border--full rounded pt1 pb1 pr2 pl2 mb1">
+                    <div class="grid-row">
+                        <div class="grid-column span-half align--center-on-tiny">
+                            <p class="mb0 bold">Milan</p>
+                        </div>
+                        <div class="grid-column span-half align--right align--center-on-tiny">
+                            <p class="mb0">July 23 - 28</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border--full rounded pt1 pb1 pr2 pl2 mb1">
+                    <div class="grid-row">
+                        <div class="grid-column span-half align--center-on-tiny">
+                            <p class="mb0 bold">Vienna</p>
+                        </div>
+                        <div class="grid-column span-half align--right align--center-on-tiny">
+                            <p class="mb0">August 8 - 13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border--full rounded pt1 pb1 pr2 pl2">
+                    <div class="grid-row">
+                        <div class="grid-column span-half align--center-on-tiny">
+                            <p class="mb0 bold">Amsterdam</p>
+                        </div>
+                        <div class="grid-column span-half align--right align--center-on-tiny">
+                            <p class="mb0">September 17 - 22</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            @@include("partials/footer.html")
+        </div><!-- end Body -->
+
+    </div>
+
+@@include("partials/foot.html")

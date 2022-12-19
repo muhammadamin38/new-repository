@@ -1,0 +1,36 @@
+@@include("partials/head.html")
+
+    <div class="grid-row">
+
+        @@include("partials/header.html")
+        
+        <!-- Hero image -->
+        <div class="hero-container full-width show-on-mobile pt1 pl2 pr2">
+            <div class="hero full-width full-height" style="background: rgba(0, 0, 0, 0) url('/img/1.jpg') no-repeat scroll center center / cover;"></div>
+        </div>
+        <div class="hide-on-mobile hero" style="background: rgba(0, 0, 0, 0) url('/img/1.jpg') no-repeat scroll center center / cover;"></div>
+
+        <!-- Body -->
+        <div class="body full-width pt1 pr2 pb2 pl2">
+            <!-- Navigation -->
+            <nav class="navigation border--bottom pt1">
+                <ul class="no-bullets list--inline pb1 bold">
+                    <li class="small mr2"><a class="link link--text current" href="/">Who We Are</a></li>
+                    <li class="small mr2"><a class="link link--text" href="/destinations.html">Destinations</a></li>
+                    <li class="small mr2"><a class="link link--text" href="/pricing.html">Pricing</a></li>
+                    <li class="small "><a class="link link--text" href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Page Content -->
+            <main class="content pt2 pb2">
+                <h2>Who We Are</h2>
+                <p>Quid turpius quam sapientis vitam ex insipientium sermone pendere? Et non ex maxima parte de tota iudicabis? Videamus igitur sententias eorum, tum ad verba redeamus. Quae sequuntur igitur?</p>
+                <p>Ne tum quidem te respicies et cogitabis sibi quemque natum esse et suis voluptatibus? Et nunc quidem quod eam tuetur, ut de vite potissimum loquar, est id extrinsecus.</p>
+                <p>Videamus igitur sententias eorum?</p>
+            </main>
+            @@include("partials/footer.html")
+        </div><!-- end Body -->
+
+    </div>
+
+@@include("partials/foot.html")

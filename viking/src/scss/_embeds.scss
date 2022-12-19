@@ -1,0 +1,15 @@
+// Base embed styles
+// -------------------------------------------------------------------
+// Make stuff responsive
+img, canvas, iframe, video, svg { max-width: 100%; }
+
+.logo-container { bottom: .6rem; }
+
+.logo--mobile { max-height: 19px; }
+
+.logo--desktop { max-width: 19px; }
+
+.icon {
+    max-width: 18px;
+    max-height: 18px;
+}
